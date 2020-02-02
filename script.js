@@ -33,3 +33,8 @@ let dayName = DayNames[weekDate.getDay()];
 document.getElementById("date").innerHTML = dayName+", " + months[currentMonthNumber]+ " " +"26, "+currentYear+".";
 
 //...............dynamic date code block ends here..............................
+
+document.getElementById("contact-form").onclick = function() {
+document.getElementById("my-form").submit();
+document.getElementById("success-form").innerHTML ="Your message has been successfully sent.";
+}
