@@ -38,3 +38,4 @@ document.getElementById("contact-form").onclick = function() {
 document.getElementById("my-form").submit();
 document.getElementById("success-form").innerHTML ="Your message has been successfully sent.";
 }
+
