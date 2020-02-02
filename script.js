@@ -1,6 +1,8 @@
+//The website should show a dynamic date using JavaScript. The date should be the 26th of the previous
+//month and shown in the following format: Thursday, Dec 26, 2019
+
 let currentDate = new Date();
 let currentMonthNumber = currentDate.getMonth()+1;
-
 let currentYear = currentDate.getFullYear();
 
 const months = ['zero','Jan','Feb','Mar','Apr','May','Jun','Jul',
@@ -25,7 +27,9 @@ const DayNames = [
 ];
 
 let weekDate = new Date(currentYear+"-"+currentMonthNumber+"-"+"26");
-var dayName = DayNames[weekDate.getDay()];
+let dayName = DayNames[weekDate.getDay()];
 
 
 document.getElementById("date").innerHTML = dayName+", " + months[currentMonthNumber]+ " " +"26, "+currentYear+".";
+
+//...............dynamic date code block ends here..............................
