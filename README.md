@@ -2,10 +2,7 @@
 
 [DEMO](https://daph3105.github.io/landing-page/dist/index.html)
 
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
+```npm command
+npm run dev
+runs the project at http://localhost:8080/
 ```
