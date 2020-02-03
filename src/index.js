@@ -1,6 +1,7 @@
+import "./style.css"
 //The website should show a dynamic date using JavaScript. The date should be the 26th of the previous
 //month and shown in the following format: Thursday, Dec 26, 2019
-
+//................dynamic date code starts...............................
 let currentDate = new Date();
 let currentMonthNumber = currentDate.getMonth()+1;
 let currentYear = currentDate.getFullYear();
@@ -34,6 +35,7 @@ document.getElementById("date").innerHTML = dayName+", " + months[currentMonthNu
 
 //...............dynamic date code block ends here..............................
 
+//..............form submission..................................................
 document.getElementById("contact-form").onclick = function() {
 document.getElementById("my-form").submit();
 document.getElementById("success-form").innerHTML ="Your message has been successfully sent.";
