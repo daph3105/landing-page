@@ -53,7 +53,7 @@ document.getElementById("logo").onclick = function() {
 //Parameter = text
 window.onload = function() {
   try {
-      let url_string = (window.location.href).toLowerCase();
+      let url_string = (window.location.href);
       let url = new URL(url_string);
       let text = url.searchParams.get("text");
       if(!text){
