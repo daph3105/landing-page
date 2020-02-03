@@ -18,6 +18,10 @@ html, body {
     width:15%;
     height:auto;
     margin-left:8px;
+    cursor:pointer;
+}
+.logo:hover{
+    transform: scale(1.1);
 }
 
 #date{
