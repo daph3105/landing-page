@@ -1,2 +1,1 @@
-# l
-Landing-page - Cake Store
+# Landing-page - Cake Store
