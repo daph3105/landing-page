@@ -18,7 +18,7 @@ Site content:
 
 ## JavaScript ##
 - Clicking on the site logo randomly changes the text headline to one of the 4 headlines saved in an array.
-- The date on the header always displays the 26th of the previous month based on today's date.
+- The date on the header always displays the 26th of the previous month based on current month and current year.
 - The paragraph under "Services" can be replaced by a URL query parameter using var=text 
 ```
 Example:
